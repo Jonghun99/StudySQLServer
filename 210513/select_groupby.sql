@@ -1,6 +1,5 @@
 -- GROUP BY
--- 아이디별로 물건 몇개 샀는지 조회
--- GROUP BY의 
+-- 아이디별로 물건 몇개 샀는지 조회 
 SELECT userID, SUM(amount) AS '총구매갯수'
   FROM buyTbl
  GROUP BY userID;
