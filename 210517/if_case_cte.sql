@@ -2,7 +2,7 @@
 -- 순서 : 
 -- userID, name 나타내기(select from where)
 -- inner join 시키기
--- sum, group by(집계함수를 제외한 일반 COLLUMS은 꼭 들어가야함)
+-- sum, group by(집계함수를 제외한 일반 COLLUMS는 꼭 들어가야함)
 -- left outer join으로 userID 전부 표시
 
 -- ORDER BY
